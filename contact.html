@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-width=device-width">
+    <title>Contact Us - My Beautiful Site</title>
+    <link rel="stylesheet" href="/css/mycss.css">
+    <style>
+        td{
+            border-bottom: none !important;
+        }
+        button{
+            margin: auto;
+            background-color: darkblue;
+            color: #fff;
+            padding: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="heading">My Programming World!</h1>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/contact.html">Contact Us</a>
+    </header>
+    <marquee class="mymarquee" behavior="alternate" direction="left">Contact Us</marquee>
+    <main class="main">
+        <h2>Contact Form</h2>
+        <form action="/index.html" method="post">
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input type="text" placeholder="Enter Your Email ID"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type="text" placeholder="Enter Your 10 digit mobile number"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><input type="radio" name="gender"> Male<input type="radio" name="gender"> Female</td>
+                </tr>
+                <tr>
+                    <td><label>Language</label></td>
+                    <td><input type="checkbox" name="language" id="1"> Java <input type="checkbox" name="language" id="2"> Python <input type="checkbox" name="language" id="3"> C++</td>
+                </tr>
+                <tr>
+                    <td><label>Message</label></td>
+                    <td><textarea name="message" id="1" cols="23" rows="4"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <span class="copyright-text"> © 2021 My Programming World | All Rights Reserved </span>
+        <div class="footer_links">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact Us</a>
+        </div>
+    </footer>
+    <a class="top" href="#top">Top</a>
+</body>
+</html>
